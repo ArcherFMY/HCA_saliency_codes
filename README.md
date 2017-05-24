@@ -1,6 +1,6 @@
 ![Build Status](https://travis-ci.org/vim/vim.svg?branch=master)
 # Hierarchical Cellular Automata for Visual Saliency
-
+![HCA pipline](/media/archer/Softwares/C-Disk/desktop/HCA-salienc-maps/pipeline.png  "pipline")
 ### Introduction
 HCA is a temporally evolving model to intelligently detect salient objects. This package contains the source codes to reproduce the experimental results of HCA reported in our [arXiv paper](https://comming soon). The source code is mainly written in MATLAB.
 
@@ -42,11 +42,6 @@ To run the demo, simply run `$HCA_ROOT/runme.m` with MATLAB. Saliency maps will 
 ### Precomputed saliency maps
 We provided pre-computed saliency maps for convenience. 
 
-Included Datasets:
-	- ECSSD
-	- HKU-IS
-	- DUT-OMRON
-	- PASCAL-S
-	- MSRA5000
+Included Datasets: `ECSSD`, `HKU-IS`, `DUT-OMRON`, `PASCAL-S` and `MSRA5000`.
 
 Get the results from [Baidu Yun](http://pan.baidu.com/s/1bMa706)
