@@ -1,3 +1,4 @@
+![Build Status](https://travis-ci.org/vim/vim.svg?branch=master)
 # Hierarchical Cellular Automata for Visual Saliency
 
 ## Introduction
