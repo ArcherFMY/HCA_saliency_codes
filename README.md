@@ -1,8 +1,15 @@
 ![Build Status](https://travis-ci.org/vim/vim.svg?branch=master)
 # Hierarchical Cellular Automata for Visual Saliency
 ![HCA pipline](https://github.com/ArcherFMY/HCA_saliency_codes/blob/master/figures-in-paper/pipeline.png "pipline")
+
+Two graph models, (a) for SCA, (b) for CCA.
+![Graph model](https://github.com/ArcherFMY/HCA_saliency_codes/blob/master/figures-in-paper/graph.png "graph")
+
+Visualization of our saliency maps compared with some *state-of-the-art methods*.
+![visualization](https://github.com/ArcherFMY/HCA_saliency_codes/blob/master/figures-in-paper/sm-com.png  "sm-com")
+
 ### Introduction
-HCA is a temporally evolving model to intelligently detect salient objects. This package contains the source codes to reproduce the experimental results of HCA reported in our [arXiv paper](https://comming soon). The source code is mainly written in MATLAB.
+HCA is a temporally evolving model to intelligently detect salient objects. This package contains the source codes to reproduce the experimental results of HCA reported in our [arXiv paper](https://comming.soon). The source code is mainly written in MATLAB.
 
 ### License
 This code is released under the MIT License (refer to the LICENSE file for details).
