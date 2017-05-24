@@ -12,9 +12,10 @@ This code is released under the MIT License (refer to the LICENSE file for detai
 2. [Requirements: hardware](#requirments-hardware)
 3. [Basic installation](#installation-sufficient-for-the-demo)
 4. [Demo](#demo)
+5. [Pre-computed saliency maps](#precomputed-saliency-maps)
 
 ### Requirements: software
-1. Requirements for `MatConvNet` (see: [MatConvNet installation instruction](http://www.vlfeat.org/matconvnet/install/).
+1. Requirements for `MatConvNet` (see: [MatConvNet installation instruction](http://www.vlfeat.org/matconvnet/install/)).
 
 2. MATLAB.
 
@@ -37,3 +38,15 @@ Here we just compiled the `MatConvNet` with CPU. Users could compile with GPU su
 
 ### Demo
 To run the demo, simply run `$HCA_ROOT/runme.m` with MATLAB. Saliency maps will be saved in `$HCA_ROOT/saliencmaps/` folder.
+
+### Precomputed saliency maps
+We provided pre-computed saliency maps for convenience. 
+
+Included Datasets:
+	- ECSSD
+	- HKU-IS
+	- DUT-OMRON
+	- PASCAL-S
+	- MSRA5000
+
+Get the results from [Baidu Yun](http://pan.baidu.com/s/1bMa706)
