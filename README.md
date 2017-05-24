@@ -2,12 +2,6 @@
 # Hierarchical Cellular Automata for Visual Saliency
 ![HCA pipline](https://github.com/ArcherFMY/HCA_saliency_codes/blob/master/figures-in-paper/pipeline.png "pipline")
 
-Two graph models, (a) for SCA, (b) for CCA.
-![Graph model](https://github.com/ArcherFMY/HCA_saliency_codes/blob/master/figures-in-paper/graph.png "graph")
-
-Visualization of our saliency maps compared with some *state-of-the-art methods*.
-![visualization](https://github.com/ArcherFMY/HCA_saliency_codes/blob/master/figures-in-paper/sm-com.png  "sm-com")
-
 ### Introduction
 HCA is a temporally evolving model to intelligently detect salient objects. This package contains the source codes to reproduce the experimental results of HCA reported in our [arXiv paper](https://comming.soon). The source code is mainly written in MATLAB.
 
@@ -20,6 +14,7 @@ This code is released under the MIT License (refer to the LICENSE file for detai
 3. [Basic installation](#installation-sufficient-for-the-demo)
 4. [Demo](#demo)
 5. [Pre-computed saliency maps](#precomputed-saliency-maps)
+6. [Visual comparison with state-of-the-art methods](#Visualization)
 
 ### Requirements: software
 1. Requirements for `MatConvNet` (see: [MatConvNet installation instruction](http://www.vlfeat.org/matconvnet/install/)).
@@ -52,3 +47,6 @@ We provided pre-computed saliency maps for convenience.
 Included Datasets: `ECSSD`, `HKU-IS`, `DUT-OMRON`, `PASCAL-S` and `MSRA5000`.
 
 Get the results from [Baidu Yun](http://pan.baidu.com/s/1bMa706)
+
+### Visualization
+![visualization](https://github.com/ArcherFMY/HCA_saliency_codes/blob/master/figures-in-paper/sm-com.png  "sm-com")
