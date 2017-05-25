@@ -46,7 +46,7 @@ We provided pre-computed saliency maps for convenience.
 
 Included Datasets: `ECSSD`, `HKU-IS`, `DUT-OMRON`, `PASCAL-S` and `MSRA5000`.
 
-Get the results from [Baidu Yun](http://pan.baidu.com/s/1bMa706)
+[pre-computed saliency maps](http://pan.baidu.com/s/1bMa706)
 
 ### Visualization
 ![visualization](https://github.com/ArcherFMY/HCA_saliency_codes/blob/master/figures-in-paper/sm-com.png  "sm-com")
