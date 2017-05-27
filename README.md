@@ -1,4 +1,3 @@
-![Build Status](https://travis-ci.org/vim/vim.svg?branch=master)
 # Hierarchical Cellular Automata for Visual Saliency
 ![HCA pipline](https://github.com/ArcherFMY/HCA_saliency_codes/blob/master/figures-in-paper/pipeline.png "pipline")
 
