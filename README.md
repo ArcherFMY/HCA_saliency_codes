@@ -2,7 +2,7 @@
 ![HCA pipline](https://github.com/ArcherFMY/HCA_saliency_codes/blob/master/figures-in-paper/pipeline.png "pipline")
 
 ### Introduction
-HCA is a temporally evolving model to intelligently detect salient objects. This package contains the source codes to reproduce the experimental results of HCA reported in our [arXiv paper](https://comming.soon). The source code is mainly written in MATLAB.
+HCA is a temporally evolving model to intelligently detect salient objects. This package contains the source codes to reproduce the experimental results of HCA reported in our [arXiv paper](https://arxiv.org/abs/1705.09425). The source code is mainly written in MATLAB.
 
 ### License
 This code is released under the MIT License (refer to the LICENSE file for details).
