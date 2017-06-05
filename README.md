@@ -1,3 +1,4 @@
+[![License](https://img.shields.io/badge/License-MIT%20LICENSE-brightgreen.svg)](LICENSE)
 # Hierarchical Cellular Automata for Visual Saliency
 ![HCA pipline](https://github.com/ArcherFMY/HCA_saliency_codes/blob/master/figures-in-paper/pipeline.png "pipline")
 
