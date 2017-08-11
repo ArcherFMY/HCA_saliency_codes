@@ -12,5 +12,5 @@ if flag ~= 0
        matrix{i} = ( mat{i} - min(min(mat{i})) +0.001) / ( max(max(mat{i})) - min(min( mat{i}))+0.002 );
     end
 else
-    matrix = ( mat - min(min(mat))+0.001 )/( max(max(mat)) - min(min(mat))+0.002 );
+    matrix = ( mat - repmat(min(min(mat)),[size(mat,1), size(mat, 2)])+0.001 )./( repmat(max(max(mat)), [size(mat, 1), size(mat, 2)]) - repmat(min(min(mat)), [size(mat, 1), size(mat, 2)])+0.002 );
 end
