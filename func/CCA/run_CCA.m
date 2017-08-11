@@ -10,6 +10,7 @@ function     HCA_map  = run_CCA(SCA_maps, params)
     
     [m,n,M]         = size(SCA_maps);
     index.o         = reshape([1:m*n]',[m,n]);
+    SCA_maps        = normalize_1(SCA_maps,0); 
     index.r         = index.o(:,[2:end,end]);
     index.l         = index.o(:,[1,1:end-1]);
     index.u         = index.o([1,1:end-1],:);
