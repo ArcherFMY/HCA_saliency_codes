@@ -5,6 +5,9 @@
 ### Introduction
 HCA is a temporally evolving model to intelligently detect salient objects. This package contains the source codes to reproduce the experimental results of HCA reported in our [arXiv paper](https://arxiv.org/abs/1705.09425). The source code is mainly written in MATLAB.
 
+### Publication ![Pub.](https://img.shields.io/badge/Accepted-yes-brightgreen.svg)
+Our paper "Hierarchical Cellular Automata for Visual Saliency" is accepted for publication in Iternational Journal of Computer Vision (IJCV). Manuscript number: VISI-D-17-00154R1.
+
 ### License
 This code is released under the MIT License (refer to the LICENSE file for details).
 
