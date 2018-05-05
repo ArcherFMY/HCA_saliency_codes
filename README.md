@@ -53,3 +53,7 @@ Included Datasets: `ECSSD`, `HKU-IS`, `DUT-OMRON`, `PASCAL-S` and `MSRA5000`.
 
 ### Visualization
 ![visualization](https://github.com/ArcherFMY/HCA_saliency_codes/blob/master/figures-in-paper/sm-com.png  "sm-com")
+
+### FAQ
+__Q__: Error when running `extract_fcn_im_features` at line(23)
+__A__: We modified the `matconvnet-1.0-beta19/matlab/+dagnn/@DagNN/eval.m` to allow users to extract features from every layers (conv, pool, relu). So if you are using your own `matconvnet`, please modify the corresponding `.m` file as we did.
